@@ -51,6 +51,7 @@ Your solution should contain the following items.
 4. Deploy Prometheus
    
    kubectl apply -f prometheus.yaml
+   
    Kubectl apply -f prometheus-deployment.yaml
 
 
