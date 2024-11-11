@@ -35,13 +35,17 @@ Your solution should contain the following items.
 2. **Build and Push Docker Image**
    
   cd docker/dockerfile
+  
   docker build -t swapnilg007/sample-web-app:latest .
+  
   docker push swapnilg007/sample-web-app:latest
 
 3. Deploy Web Application
 
   cd kubernetes
+  
   kubectl apply -f deployment.yaml
+  
   kubectl apply -f service.yaml
   
 4. Deploy Prometheus
