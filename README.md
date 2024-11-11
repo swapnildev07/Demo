@@ -48,7 +48,7 @@ Your solution should contain the following items.
   
   kubectl apply -f service.yaml
   
-4. Deploy Prometheus
+4. Deploy Prometheus ( Allow port 9090 )
    
    kubectl apply -f prometheus.yaml
    
